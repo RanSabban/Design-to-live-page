@@ -1,0 +1,31 @@
+.main-footer{
+    background-color: #F8F8F8;
+    text-align: center;
+    height: 318px;
+    display: grid;
+    align-items: center;
+}
+
+.main-footer .logo{
+    margin: 0;
+    color: black;
+    align-self: end;
+}
+
+.footer-rights{
+    color:#A6A6A6;
+    font-size: 0.8125em;
+}
+
+.footer-social{
+    align-self: start;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    column-gap: 17px;
+}
+
+.footer-social li{
+    width: 40px;
+    height: 40px;
+}

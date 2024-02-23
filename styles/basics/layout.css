@@ -1,0 +1,22 @@
+.main-layout{
+    display: grid;
+    grid-template-columns: 258px 1fr 257px;
+}
+
+.main-layout > *:not(.full){
+    grid-column: 2;
+}
+
+.main-layout > *.full{
+    grid-column: 1/-1;
+}
+
+.cards-layout{
+    display: grid;
+    /* row-gap: 43px; */
+}
+
+.card{
+    margin-bottom: 43px;
+}
+

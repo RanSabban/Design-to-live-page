@@ -1,0 +1,16 @@
+.page-selection{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.pages-btn{
+    font-size: 1.125em;
+    font-family: inherit;
+    text-transform: uppercase;
+    appearance: none;
+    border: none;
+    background-color: #FFFFFF;
+    margin-inline: 25px;
+    color: #969696;
+}
